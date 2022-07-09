@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(165, 165, 165);
+}
+
+
+/* Navigation bar section */
+
+.nav-bar {
+    padding: 5px 25px 5px 25px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-part,
+.right-part {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.company-name {
+    color: #212cca;
+}
+
+
+/* .my-name {} */
+
+.profile-pic {
+    height: 48px;
+    width: 48px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Body section */
+
+.body-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-body-part {
+    padding: 25px;
+    margin: 25px 0 50px 25px;
+    background-color: white;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.pic-and-name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.display-pic {
+    padding: 5px;
+    box-sizing: border-box;
+    height: 18vw;
+    width: 18vw;
+    border-radius: 50%;
+    border: 1px solid rgb(21, 21, 194);
+}
+
+.profile-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.heading {
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-size: large;
+}
+
+.about-section {
+    padding: 40px 0 20px 0;
+    border-bottom: 2px dashed gray;
+}
+
+.left-side-para {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 6px 0 6px 0;
+    color: black;
+}
+
+.contact-section {
+    padding: 35px 0 20px 0;
+}
+
+.on-the-web {
+    padding: 35px 0 20px 0;
+}
+
+
+/* hover */
+
+a:hover {
+    color: rgb(168, 168, 245);
+    font-size: 1.5rem;
+}
+
+.right-body-part {
+    padding: 25px;
+    margin: 0 0 0 25px;
+    width: 75vw;
+    padding:
+}
+
+.container {
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.heading-right {
+    padding-bottom: 12px;
+    border-bottom: 2px dashed gray;
+}
+
+.subheading-right {
+    padding: 10px 0 10px 0;
+}
+
+p {
+    padding: 6px 0 6px 0;
+    color: gray;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+h5 {
+    padding: 10px 0 10px 0;
+}
+
+ul {
+    color: gray;
+    padding-left: 16px;
+}
+
+.project-link {
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 750px) {
+    .body-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-body-part {
+        padding: 25px;
+        margin: 25px 25px 50px 25px;
+        background-color: white;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .display-pic {
+        height: 200px;
+        width: 200px;
+    }
+    .right-body-part {
+        padding: 25px;
+        margin: 0 25px 0 25px;
+        width: auto;
+        padding:
+    }
+}
